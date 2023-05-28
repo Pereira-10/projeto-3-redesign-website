@@ -1,0 +1,88 @@
+.navbar {
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: aliceblue;
+    color: black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio, .nav-link.active:hover {
+    color: aliceblue;
+}
+
+.nav .nav-link {
+    font-size: small;
+}
+
+.navbar-brand {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+}
+
+.navbar-toggler {
+    background-color: rgb(182, 182, 185);
+}
+
+.mw-100{
+    width: 100%; height: 400px
+}
+
+.section-title{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.section-title span{
+    color:#893C08
+}
+
+#o-restaurante, #cardapio {
+    background-color:#ebd2c2; 
+}
+.body {
+    font-family: 'Roboto Slab', serif;
+}
+
+p, li{
+    font-size: small;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 300px;
+}
+
+.text-colored {
+    color:#893C08;
+}
+
+.nav-cardapio .nav-link.active, #fale-conosco button  {
+    background-color:#893C08;
+    color: aliceblue;
+}
+
+.nav-cardapio .nav-link:hover {
+    color:#893C08;
+}
+
+.nav-link.active:hover {
+    color: aliceblue;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

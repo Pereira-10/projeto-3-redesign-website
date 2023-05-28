@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 3 - Redesign Restaurante</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+
+    
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Redesign Restaurante Ecully</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#o-restaurante" class="nav-link"> <i class="bi bi-house-door me-1"></i>O Restaurante</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#oschefs" class="nav-link"> <i class="bi bi-people-fill me-1"></i>Os Chefs</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link"> <i class="bi bi-card-text me-1"></i>Cardápio</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link"> <i class="bi bi-chat-dots me-1"></i>Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="o-restaurante">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="mw-100" src="./Imagens/home.png" alt="Entrada do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="mw-100" src="./Imagens/adega.png" alt="Adega do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="mw-100" src="./Imagens/interior.png" alt="salão do restaurante">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <div class="span carousel-control-prev-icon"></div>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <div class="span carousel-control-next-icon"></div>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./Imagens/ambiente externo 1.png" class="d-block w-100 rounded" alt="Ambiente externo">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">O <span>Restaurante</span></h2>
+                        <p>Esta página é um <B> <i>redesign</i></B> do website do Restaurante Ecully. As imagens do cardápio são meramente ilustrativas.<br>
+                            O restautante foi inaugurado em 2013, em uma estrutura icônica, que possui mais de 100 anos, localizado no bairro de Perdizes. <br>
+                            Em seu interior, é possível visualizar diversas plantas, inclusive uma jabuticabeira que fica entre as mesas. Além disso, também traz um ambiente confortável e aconchegante, com suas paredes e teto de vidro (aproveitando toda a luz natural do ambiente). Para completar o ambiente intimista, durante a noite o público conta com uma iluminação à velas. <br>
+                            Classificado como Bib gourmand do guia Michelin todos os anos desde 2015, o espaço conta com os Chefs e sócios Juliana Amorim e Guilherme Tse Candido. <br>
+                            Ao falar sobre o cardápio, todos os pratos foram escolhidos a dedo, com muito cuidado desde a compra dos ingredientes até a sua apresentação. Possuem influência brasileira, francesa, italiana. <br>
+    
+                            <I></I><h4 class="section-title">Curiosidades sobre o <span>nome:</span> </h4></I> 
+                            <ul>
+                                <li> A capital da gastronomia francesa chama-se Écully (com acento);</li>
+                                <li>É nesse local, próximo a Lyon, que está localizado o Instituto Paul Bocuse, uma conhecida Escola de Gastronomia;</li>
+                                <li>A Escola serviu como cenário para o encontro da Juliana e do Guilherme;</li>
+                                <li>A pronúncia de Ecully é "eculí" - com acento no í.</li>
+                            </ul> 
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="oschefs" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Os incríveis <span>Chefs</span></h2>
+                    <img class="img-fluid" src="./Imagens/Capa-chefs1.png" alt="Imagem de Juliana e Guilherme">
+                </div>
+                <div class="row pt-4 pb-4">
+                    <div class="col-md-6">
+                        <h3 class="section-title">
+                            <i class="bi bi-person-badge"></i>
+                            Juliana <span>Amorim</span></h3>
+                        <img src="./Imagens/juliana-sobre.png" alt="Chef Juliana Amorim" class="d-block w-100 rounded">
+                        <p class="pt-2" > Sua vontade de ser uma profissional da confeitaria, deu espaço para a cozinha salgada. Ainda como estudante, Juliana representou sua Faculdade e ganhou o Concurso Nacional: <i>Talento Ao Vivo</i> organizado pela Revista <i>Prazeres da Mesa</i>, focada em estudantes de gastronomia. Ela também estagiou no Restaurante Maison Joly, localizado em Ilha Bela, região norte do Litoral Paulista e também assumiu a chefia da cozinha de um restaurante localizado no sul de Minas Gerais, além de trabalhar em restaurantes como Sophia Bistrô e Sabuji de Bel Coelho, ambos localizados em São Paulo. Também participou da produção de eventos como Prazeres da Mesa ao Vivo e Boa Mesa. <br>
+                        Juliana formou- se em Gastronomia pelo Centro Universitário Senac-SP e decidiu especializar-se em cozinha francesa no Instituto Paul Bocuse, localizado em Lyon, na França. Foi nesse cenário que iniciou a sua trajetória com Guilherme. Nessa época, foi convidada pelo Instituto para estagiar em um restaurante duas estrelas Michelin, o <i>La Alquería</i>, que está localizado no Hotel El Bulli, em Sevilha. <br>
+                        Depois disso, foi para Portugal, onde estagiou com o Chef português Vitor Sobral, em seu Restaurante, Terreiro do Paço, localizado na Praça do Comércio, em Lisboa. <br>
+                        Ao voltar para o Brasil, aos 21 anos, Amorim assumiu a cozinha de um Bistrô localizado no bairro de Pinheiros, chamado Ratatouille. Depois, ao lado de seu sócio, fundaram o Buffet Ecully - Ateliê de Gastronomia Dirigida, no qual atendiam diferentes tipos de eventos, elaborando cardápios personalizados e criativos.<br>
+                        No ano de 2011, o Ecully foi fundado e a dupla além de dividir a sociedade, também dividia a cozinha. Em 2019 deu mais um passo em sua carreira, fundando a Hamburgueria Ecully Charbon, também localizada no bairro de Perdizes.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title">
+                            <i class="bi bi-person-badge-fill"></i>
+                            Guilherme Tse <span>Candido</span></h3>
+                        <img src="./Imagens/guilherme-sobre.png" alt="Chef Juliana Amorim" class="d-block w-100 rounded">
+                        <p class="pt-2"> Guilherme sempre gostou de esportes, em especial o golf, mas, após seu primeiro contato com a cozinha, aos 16 anos, o esporte "perdeu" lugar para a cozinha. Com o tempo passou a trabalhar em eventos como sushiman e percebendo seu dom para a cozinha, sua família o incentivou a cursar a faculdade de Gastronomia. <br>
+                        Na faculdade, decidiu explorar outras cozinhas além do sushi e se apaixonou por massas durante seu estágio no Restaurante Vinheria Percussi, no bairro de Pinheiros na cidade de São Paulo. Em 2007 trabalhou como Sous-chef em um bar no bairro da Vila Madalena, na cidade de São Paulo, mas, decidiu trancar sua faculdade e sair de seu emprego para estudar no renomado Instituto Paul Bocuse, em Lyon na França. Assim, estagiu em um restaurante duas estrelas Michelin, o <i>La Alquería</i>, localizado no Hotel El Bulli, em Sevilha, especializou-se em cozinha francesa e conheceu a Juliana. Depois, ele foi para Costigliole d'Asti, que fica localizada na região do Piemonte, na Italia. Estudou na Escola de Gastronomia Italiana ICIF e estagiou no restaurante La Credenza, em San Maurizio Canavese, mesma região italiana, sendo responsável por elaborar os primeiros pratos de um menu italiano, chamado de primi piati, em italiano, produzindo risotos e massas. <br>
+                        Ao voltar para o Brasil, em 2008, Candido formou-se na faculdade de Gastronomia e venceu o concurso da Feira Fispal, <i>Gourmet Show</i>, na categoria carnes por equipes. Em 2009, ganhou novamente o concurso, na categoria profissional, e teve como prêmio uma viagem para Paris, cidade francesa e um curso na Escola Alain Ducasse. <br>
+                        Depois, ao lado de sua sócia, fundaram o Buffet Ecully - Ateliê de Gastronomia Dirigida, no qual atendiam diferentes tipos de eventos, elaborando cardápios personalizados e criativos.<br>
+                        No ano de 2011, o Ecully foi fundado e o casal além de dividir a sociedade, também dividia a cozinha. Em 2019 deu mais um passo em sua carreira, fundando a Hamburgueria Ecully Charbon, também localizada no bairro de Perdizes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio" class="pt-3 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mt-1 pb-1">Nosso <span>Cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entrada-executiva" class="fw-bold text-start nav-link text-colored active">Entrada executiva</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesa-executiva" class="fw-bold text-start nav-link text-colored">Sobr. executiva</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entrada-principal" class="fw-bold text-start nav-link text-colored">Entrada</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#prato-principal" class="fw-bold text-start nav-link text-colored">Pratos principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesa-principal" class="fw-bold text-start nav-link text-colored">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="entrada-executiva">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <!--dentro da dessa class, se a imagem estiver muito grande: d-block w-100--> <img class="rounded" src="./Imagens/macarrão 1.png" alt="Imagem de um dos pratos, de macarrão">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada executiva - Macarrão especial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Bolinho de cupim com aioli de açafrão.png" alt="Imagem de um dos pratos, bolinho de aipim com aioli de açafrão">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada executiva - Bolinho de cupim com aioli de açafrão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Tostada com linguiça curada, queijo Saint Marcelin e pesto.png" alt="Imagem de um dos pratos,  Tostada com linguiça curada, queijo Saint Marcelin e pesto">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada executiva -  Tostada com linguiça curada, queijo Saint Marcelin e pesto</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Couvert - Patê do dia, manteiga tostada e pão de fermentação natural da casa.png" alt="Imagem do Couvert - Patê do dia, manteiga tostada e pão de fermentação natural da casa">
+                                        <h5 class="text-colored fw-bold mt-2">Couvert executivo - Patê do dia, manteiga tostada e pão de fermentação natural da casa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="sobremesa-executiva">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/frutas da estação.png" alt="Imagem de frutas da estação">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa executiva - Frutas da estação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Sorvete artesanal do dia.png" alt="Imagem de um sorvete artesanal">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa executiva - Sorvete artesanal do dia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Mini creme brûlée de doce de leite com suave toque de café.png" alt="Imagem de um Mini creme brûlée de doce de leite com suave toque de café">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa executiva - Mini creme brûlée de doce de leite com suave toque de café</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Pavlova recheada com mousse de coco, frutas frescas e curd de laranja.png" alt="Imagem da sobremesa Pavlova recheada com mousse de coco, frutas frescas e curd de laranja">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa executiva - Pavlova recheada com mousse de coco, frutas frescas e curd de laranja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="entrada-principal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/entrada Boeuf Tartar tartar de mignon na ponta da faca sobre batata folhada.png" alt="Imagem de oeuf Tartar tartar de mignon na ponta da faca sobre batata folhada">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada Principal - Boeuf Tartar tartar de mignon na ponta da faca sobre batata folhada</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/entrada Camarão empanado.png" alt="imagem de um camarão empanado">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada Principal - Camarão empanada especial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/entrada Crudo de atum - 54,90 Com tomate na brasa, crocante de parma e aîoli sobre crocante de peixinho.png" alt="Imagem de um Crudo de atum com tomate na brasa, crocante de parma e aioli sobre crocante de peixinho">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada Principal - Crudo de atum com tomate na brasa, crocante de parma e aîoli sobre crocante de peixinho</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/entrada Ostras frescas (de quarta a domingo) – 49,90 Com sorbet de limão siciliano, caviar mujol e molho ponzu.png" alt="Imagem de ostras frescas">
+                                        <h5 class="text-colored fw-bold mt-2">Entrada Principal - Ostras frescas com sorbet de limão siciliano, caviar mujol e molho ponzu</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="prato-principal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Prato principal - Raviólis de pastrame Ecully – 89,90 Em seu próprio molho, com toque de balsâmico branco e raspas de limão siciliano.png" alt="Imagem Raviólis de pastrame, com toque de balsâmico branco e raspas de limão siciliano">
+                                        <h5 class="text-colored fw-bold mt-2">Prato Principal - Raviólis de pastrame, com toque de balsâmico branco e raspas de limão siciliano</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Prato principal - Risoto de cogumelo - 79,90 Com rôti vegetariano, alho assado, limão e crisp de alho por.png">
+                                        <h5 class="text-colored fw-bold mt-2">Prato Principal - Risoto de cogumelo com alho assado, limão e crisp de alho poró</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Prato principal -prato principal - paella com frutos do mar - Com lula, polvo, camarão e mexilhão.png" alt="Imagem de uma paella com frutos do mar - Com lula, polvo, camarão e mexilhão">
+                                        <h5 class="text-colored fw-bold mt-2">Prato Principal - Paella com frutos do mar (lula, polvo, camarão e mexilhão)</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Prato principal Leitão cozido em baixa temperatura – 89,90 Com purê de mandioquinha, cebola caramelizada e pesto de manjericão.png" alt="Imagem de Leitão cozido com purê de mandioquinha, cebola caramelizada e pesto de manjericão">
+                                        <h5 class="text-colored fw-bold mt-2">Prato Principal - Leitão cozido com purê de mandioquinha, cebola caramelizada e pesto de manjericão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane" id="sobremesa-principal">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/sobremesa - romeu e julieta com sorvete.png" alt="Imagem de sobremesa - romeu e julieta com sorvete">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa - Romeu e julieta com sorvete</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/Sobremesa creme brûlée de doce de leite com suave toque de café.png" alt="Imagem de sobremesa creme brûlée de doce de leite com suave toque de café">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa- Creme brûlée de doce de leite com suave toque de café</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/sobremesa - Banoffee.png" alt="Imagem da sobremesa Banoffee">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa - Banoffee</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="rounded" src="./Imagens/sobremesa - Pavlova recheada com mousse de coco, frutas frescas e curd de laranja.png" alt="Imagem da sobremesa Pavlova recheada com mousse de coco, frutas frescas e curd de laranja">
+                                        <h5 class="text-colored fw-bold mt-2">Sobremesa- Pavlova recheada com mousse de coco, frutas frescas e curd de laranja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt excepturi dolorem ea nostrum suscipit quidem ab fugiat.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+
+
+        <section id="fale-conosco" class="pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone:</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem"required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar mensagem</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-globe"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua: Cotoxó, 493. Bairro: Perdizes, São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <script type="text/javascript" src="jquery.mask.min.js"></script>
+  <script type="text/javascript" src="jquery.validate.min.js"></script>
+  <script type="text/javascript" src="messages_pt_PT.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>
